@@ -1,0 +1,80 @@
+.container{
+    margin: 20px;
+}
+.bitcoin{
+    margin-top: 20px;
+}
+.line{
+    margin-top: 20px;
+    background-color: #C9CFDD99;
+}
+.bitcoinData{
+    margin-top: 20px;
+}
+.bitcoinData1{
+    margin-top: 20px;
+}
+.bitcoinData2{
+    margin-top: 20px;
+}
+.bitcoinData3{
+    margin-top: 20px;
+}
+.holdingBitcoin{
+    margin-top: 20px;
+}
+.profits{
+    width: 30vw;
+    height: 25vh;
+    background: linear-gradient(135deg, #79F1A4 0%, #0E5CAD 100%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.tax{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 30vw;
+    height: 25vh;
+    border-radius: 5px;
+    background: linear-gradient(135.73deg, #FF9865 0%, #EF3031 110.55%);
+}
+.img{
+    margin-left: 20px;
+}
+.bitcoinInfo{
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+}
+.btnBox{
+    color: white;
+    font-size: 15px;
+}
+.btn{
+    margin-top: 20px;
+    width: 130px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.data{
+    margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .bitcoinInfo{
+        flex-direction: column;
+    }
+    .profits{
+        width: 90vw;
+    }
+    .tax{
+        width: 90vw;
+    }
+    .btnBox{
+        font-size: 10px;
+    }
+}

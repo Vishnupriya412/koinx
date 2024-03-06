@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #D3E0E6;
+  width: 100vw;
+  height: 100vh;
+}
+
+.overView {
+  display: flex;
+  list-style: none;
+  font-size: 1.5vw;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
